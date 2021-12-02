@@ -1,0 +1,11 @@
+Yêu cầu:
+- Truy cập link sau: https://www.freecodecamp.org/learn; tạo tài khoản với Thông tin là Tên sinh viên + Mã sinh viên
+- Thực hiện các bài tập sau bằng tài khoản đã tạo:
+  + ES6: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#es6
+  + Debuging: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#debugging
+  + Basic Data Structure: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-data-structures
+  + OOP: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming
+- Sau mỗi bài, Download Solution và đặt tên theo cú pháp: DanhMuc_SoCau.txt (Ví dụ: ES6.01.txt)
+- Chụp ảnh màn hình bài làm, kèm file nén các Solution đã tải và đặt tên file nộp theo cú pháp:
+[D14CNPM5].Họ_Và_Tên.OL01.rar/zip
+- Hạn nộp: 15h00 ngày 16/09/2021

@@ -1,0 +1,5 @@
+Sử dụng Nodejs, tạo WebServer trình bày giao diện theo mẫu thiết kế "ProductList.png".
+Sử dụng các Resources trong thư mục Images.
+Hạn nộp: 11h30.
+File nộp đặt tên theo cú pháp:
+[D13CNPM5].Họ_và_Tên.TH01.rar/zip

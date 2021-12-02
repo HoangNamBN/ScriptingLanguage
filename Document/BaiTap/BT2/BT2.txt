@@ -1,0 +1,5 @@
+Sử dụng NodeJS,
+Xây dựng webserver trả về giao diện theo mẫu thiết kế.
+Sử dụng phần design đã thực hiện trong bài thực hành 01.
+Hạn nộp: 15h15 ngày 29/09/2021
+File nén: [D13CNPM5].Họ_và_tên.TH02.rar/zip
