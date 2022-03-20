@@ -1,0 +1,61 @@
+{{#with Sanpham}}
+<form action="" method="POST" role="form">
+	<div class="form-group">
+		<label for="id">ID</label>
+		<input type="text" class="form-control" id="id" name="ProID" value="{{ProID}}" readonly="true">
+	</div>
+	<div class="form-group">
+		<label for="name">Tên sản phẩm</label>
+		<input type="text" class="form-control" id="name" name="ProName" value="{{ProName}}">
+	</div>
+	<div class="form-group">
+		<label for="">Giá sản phẩm</label>
+		<input type="text" class="form-control" id="Price" name="Price" value="{{Price}}" >
+	</div>
+		<div class="form-group">
+		<label for="">Mô tả</label>
+		<input type="text" class="form-control" id="Description" name="Description" value="{{Description}}">
+	</div>
+	{{!-- <div class="form-group">
+		<label for="">Ảnh sản phẩm</label>
+		<input type="text" class="form-control" id="images" name="images" value="{{images}}">
+	</div> --}}
+	<div class="form-group">
+		<label for="">Ảnh sản phẩm</label>
+		<br>
+		<input type="file" class="form-controll" id="images" name="images" value="{{images}}">
+	</div>
+	<div class="form-group">
+		<label for="">Loại sản phẩm</label>
+		<br>
+		{{!-- <input type="text" class="form-control" id="CatID" name="CatID" placeholder="Loại sản phẩm"> --}}
+		<select name="CatID" id="CatID" style="width: 200px;height: 35px;" >
+			<option value="">Loại sản phẩm</option>
+			<option value="1" selected>Đồng hồ nam</option>
+			<option value="2">Đồng hồ nữ</option>
+			<option value="3">Đồng hồ cặp</option>
+		</select>
+	</div>
+	<div class="form-group">
+		<label for="">Thương hiệu</label>
+		<br>
+		{{!-- <input type="text" class="form-control" id="BrandID" name="BrandID" placeholder="Thương hiệu"> --}}
+		<select name="BrandID" id="BrandID" style="width: 200px;height: 35px;">
+			<option value="">Thương hiệu</option>
+			<option value="1" selected>Philipper Auguste</option>
+			<option value="2">Epos Swiss</option>
+			<option value="3">Diamond D</option>
+			
+		</select>
+	</div>
+
+	<a class="btn btn-outline-secondary" href="/admin/sanpham" role="button">
+		<i class="fa fa-arrow-left" aria-hidden="true"></i>
+		Danh sách sản phẩm
+	</a>
+	<button type="submit" class="btn btn-outline-success">
+		<i class="fa fa-check" aria-hidden="true"></i>
+		Sửa
+	</button>
+</form>
+{{/with}}
